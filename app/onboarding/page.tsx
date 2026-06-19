@@ -123,7 +123,7 @@ export default function OnboardingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-bg flex flex-col justify-between px-6 py-8">
+    <div className="min-h-[calc(100dvh-env(safe-area-inset-top,0px))] bg-bg flex flex-col justify-between px-6 pt-6 pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))]">
       {/* Header */}
       <div className="flex justify-between items-center h-12">
         {step > 0 && step < 5 ? (

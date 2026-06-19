@@ -34,7 +34,7 @@ export default function BottomNav() {
 
   return (
     <>
-      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] px-4 pb-5 z-40">
+      <div className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] z-40">
         <div className="bg-white rounded-[36px] shadow-[0_8px_32px_rgba(13,157,168,0.18)] border border-border px-4 py-3 flex items-center justify-between relative">
           
           {/* Wallet Tab */}
